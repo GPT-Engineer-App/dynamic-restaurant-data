@@ -1,5 +1,5 @@
-import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import PropTypes from 'prop-types';
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const colors = {
   brand: {

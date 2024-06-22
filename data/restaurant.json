@@ -1,0 +1,71 @@
+{
+  "name": "Gourmet Paradise",
+  "location": {
+    "address": "123 Foodie Lane, Flavor Town, FT 45678",
+    "coordinates": {
+      "latitude": 40.712776,
+      "longitude": -74.005974
+    }
+  },
+  "contact": {
+    "phone": "+1 234 567 890",
+    "email": "info@gourmetparadise.com",
+    "website": "https://www.gourmetparadise.com"
+  },
+  "openingHours": {
+    "monday": "10:00 AM - 10:00 PM",
+    "tuesday": "10:00 AM - 10:00 PM",
+    "wednesday": "10:00 AM - 10:00 PM",
+    "thursday": "10:00 AM - 10:00 PM",
+    "friday": "10:00 AM - 11:00 PM",
+    "saturday": "11:00 AM - 11:00 PM",
+    "sunday": "11:00 AM - 9:00 PM"
+  },
+  "menu": [
+    {
+      "category": "Appetizers",
+      "items": [
+        {
+          "name": "Bruschetta",
+          "description": "Grilled bread garlic, tomatoes, olive oil.",
+          "price": 8.5
+        },
+        {
+          "name": "Stuffed Mushrooms",
+          "description": "Mushrooms filled with cheese and herbs.",
+          "price": 9.0
+        }
+      ]
+    },
+    {
+      "category": "Main Courses",
+      "items": [
+        {
+          "name": "Grilled Salmon",
+          "description": "Salmon fillet with a side of vegetables.",
+          "price": 18.0
+        },
+        {
+          "name": "Ribeye Steak",
+          "description": "Juicy ribeye steak with mashed potatoes.",
+          "price": 25.0
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        {
+          "name": "Cheesecake",
+          "description": "Creamy cheesecake with a graham cracker crust.",
+          "price": 7.0
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with a molten center.",
+          "price": 8.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import PropTypes from 'prop-types';
 
 const colors = {
   brand: {
@@ -17,5 +18,10 @@ function MyApp({ Component, pageProps }) {
     </ChakraProvider>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
+};
 
 export default MyApp;
